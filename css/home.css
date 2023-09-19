@@ -1,5 +1,6 @@
 body{
     color: #970904;
+    padding-bottom: 50px;
 }
 
 .para-color{
@@ -60,6 +61,7 @@ body{
 
 .about-container p{
     font-size: 25px;
+    font-weight: 500;
 }
 
 .services-container{
@@ -111,6 +113,16 @@ body{
 
 .contact-link p{
     font-size: larger;
+}
+
+.theimage{
+    /* object-fit: cover; */
+    height:100%;
+    width:100%;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
 }
 
 @media (max-width: 767px){
